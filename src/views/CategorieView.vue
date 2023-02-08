@@ -43,7 +43,7 @@
 
 <script setup>
 import { reactive, onMounted } from "vue";
-import { BACKEND, doAjaxRequest, APIError } from "../api";
+import { BACKEND, doAjaxRequest } from "../api";
 
 // Pour réinitialiser le formuaire
 const categorieVide = {
